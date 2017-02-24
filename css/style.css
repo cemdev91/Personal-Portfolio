@@ -1,0 +1,105 @@
+
+body {
+	width: 100%;
+	background-color: #37A1F2;
+}
+p {
+	color: #7D7D7D;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #7D7D7D;
+}
+
+/* Navigation */
+
+.main-header {
+	background-color: #37a1f2;
+	height:	45px;
+}
+.main-header a {
+	color: white;
+
+}
+.main-header li {
+	list-style-type: none;	
+}
+.me {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	line-height: 45px;
+}
+.me img {
+	display: inline-block;
+	margin-top: -2px;
+}
+
+.my-name {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+.main-nav {
+	display: inline-block;
+	float: right;
+	margin: 0;
+	line-height: 45px;
+
+}
+.main-nav li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	margin-right: 20px;
+}
+
+/* Welcome Block */
+
+.welcome-block {
+	height: 380px;
+	border-bottom: 2px solid white;
+	background-color: black;	
+}
+.welcome-blocks {
+	display: inline-block;
+	width: 48%;
+}
+.welcome-info {
+	margin-top: 30px;
+	float:left;
+	margin-left: 20px;
+}
+.welcome-intro {
+	margin-left: 20px;
+}
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+	color: white;
+}
+.white-text {
+	color: #D4D4D4;
+}
+.welcome-info p {
+	padding: 10px;
+}
+.profile-photo {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.small-bio {
+	float:right;
+	margin-right: 20px;
+}
+.small-bio h3 {
+	padding: 10px;
+}
+
+
