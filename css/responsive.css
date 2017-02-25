@@ -1,0 +1,28 @@
+
+@media (max-width: 1083px) {
+	.small-bio, .welcome-info {
+		display: block;
+		float: left;
+		width: 100%;
+		margin: 0;
+		background-color: black;
+		border-bottom: solid 2px white;
+	}
+	.container {
+		width: 95%;
+	}
+	.welcome-intro, .welcome {
+		text-align: center;
+		width: 100%;
+	}
+}
+@media (max-width: 913px) {
+	.main-nav {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	.welcome-block {
+		margin-top: 45px;
+	}
+}

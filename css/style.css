@@ -52,6 +52,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	margin-right: 20px;
 }
+.main-nav li a:hover {
+	text-decoration: underline;
+}
 
 /* Welcome Block */
 
@@ -88,12 +91,6 @@ hr {
 .welcome-info p {
 	padding: 10px;
 }
-.profile-photo {
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
 .small-bio {
 	float:right;
 	margin-right: 20px;
@@ -101,5 +98,12 @@ hr {
 .small-bio h3 {
 	padding: 10px;
 }
+.profile-photo {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
 
 
