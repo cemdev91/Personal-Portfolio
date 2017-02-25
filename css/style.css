@@ -1,7 +1,7 @@
 
 body {
 	width: 100%;
-	background-color: #37A1F2;
+	background-color: #929faa;
 }
 p {
 	color: #7D7D7D;
@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-header {
 	background-color: #37a1f2;
 	height:	45px;
+	border-bottom: 2px solid white;
 }
 .main-header a {
 	color: white;
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 .me img {
 	display: inline-block;
 	margin-top: -2px;
+	border: none;
 }
 
 .my-name {
@@ -91,6 +93,10 @@ hr {
 .welcome-info p {
 	padding: 10px;
 }
+img {
+	border: 1px solid white;
+	width: 50px;
+}
 .small-bio {
 	float:right;
 	margin-right: 20px;
@@ -105,5 +111,154 @@ hr {
     margin-top: 20px;
 }
 
+/* About Me */
+.skills-experience {
+	height: 550px;
+}
 
+.skills-experience h1 {
+	font-size: 90px;
+	color:black;
+	text-align: center;
+	margin-top: 20px;
+}
+.skills-experience p {
+	color: black;
+}
+.skills, .experience {
+	display: inline-block;
+	width: 48%;
+}
+.skills {
+	float: left;
+}
+.experience {
+	float: right;
+}
 
+/* Skills Block */
+
+.my-skills {
+	margin-top: 30px;
+}
+.skills li {
+	margin: 10px 0 0 15px;
+	padding: 10px;
+	list-style-type: none;
+}
+.htmlli {
+	background-color: #2c3e50;
+	width: 90%;
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+	border-left: white solid 1px;
+	color: white;
+}
+.bootstrapli {
+	background-color: #3498db;
+	width: 65%;
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+	border-left: white solid 1px;
+	color: white;
+}
+.jsli {
+	background-color: #e67e22;
+	width: 50%;
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+	border-left: white solid 1px;
+	color: white;
+}
+.phpli {
+	background-color: #5a68a5;
+	width: 50%;
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+	border-left: white solid 1px;
+	color: white;
+}
+.drupalli {
+	background-color: #4288D0;
+	width: 70%;
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+	border-left: white solid 1px;
+	color: white;
+}
+.bddli {
+	background-color: #2ECC71;
+	width: 60%;
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+	border-left: white solid 1px;
+	color: white;
+}
+.skills-hr {
+	display: inline-block;
+	margin: 0;
+	width: 1px;
+	height: 405px;
+	margin-top: 75px;
+}
+
+/* Projects */
+
+.projects {
+	margin-top: 20px;
+}
+.projects h1 {
+	font-size: 90px;
+}
+.projects-hr {
+	color: white;
+	width: 80%;
+}
+.projects {
+	margin-top: 20px;
+	background-color: black;
+	height: 650px;
+}
+.project-block {
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+	margin: auto;
+	float: left;
+}
+.project-block h3, .projects h1 {
+	color: white;
+}
+.project-block img {
+	width: 66%;
+	margin: 20px 0;
+	height: 200px;
+}
+.project-block p {
+	width: 100%;
+	margin-top: 5px;
+	text-align: center;
+}
+.project-info {
+	padding: 15px;
+}
+
+/* Footer */
+footer {
+	background-color: #37a1f2;
+	height: 40px;
+	border-top: 2px solid white;
+}
+footer h4 {
+	margin-right: 20px;
+	color: white;
+	line-height: 40px;
+}
+.top-link {
+	margin-left: 70px;
+}
+footer a {
+	margin-left: 70px;
+	color: white;
+	line-height: 40px;
+}
