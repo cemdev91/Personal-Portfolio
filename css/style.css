@@ -90,6 +90,9 @@ hr {
 .white-text {
 	color: #D4D4D4;
 }
+.green-text {
+	color: #33e87e;
+}
 .welcome-info p {
 	padding: 10px;
 }
@@ -112,24 +115,25 @@ img {
 }
 
 /* About Me */
-.skills-experience {
-	height: 550px;
-	background-color: #929faa;
+.skills, .experience {
+	height: 550px;*/
+	
 
 }
 
-.skills-experience h1 {
+.skills h1, .experience h1 {
 	font-size: 90px;
 	color:black;
 	text-align: center;
 	margin-top: 20px;
 }
-.skills-experience p {
+.skills p, .experience p {
 	color: black;
 }
 .skills, .experience {
 	display: inline-block;
-	width: 48%;
+	width: 50%;
+	background-color: #929faa;
 }
 .skills {
 	float: left;
@@ -207,23 +211,33 @@ img {
 /* Projects */
 
 .projects {
-	padding-top: 20px;
+	display: block;
+	padding-top: 10px;
 	background-color: black;
-	height: 670px;
+	width: 100%;
+	border-top: 2px solid white;
 }
 .projects h1 {
 	font-size: 90px;
+	padding-bottom: 20px;
+	background-color: black;
+	margin-bottom: -8px;
 }
 .projects-hr {
+	margin-top: -12px;
 	color: white;
 	width: 80%;
 }
+.projects-container {
+	background-color: black;
+}
 .project-block {
 	display: inline-block;
-	width: 33%;
+	width: 33.33%;
 	text-align: center;
-	margin: auto;
 	float: left;
+	background-color: black;
+	height: 550px;
 }
 .project-block h3, .projects h1 {
 	color: white;
@@ -235,20 +249,24 @@ img {
 }
 .project-block p {
 	width: 100%;
-	margin-top: 5px;
+	margin-top: -10px;
 	text-align: center;
 }
 .project-info {
-	padding: 15px;
+	padding: 10px;
 }
 
 /* Footer */
+
 footer {
+	display: block;
 	background-color: #37a1f2;
 	height: 40px;
 	border-top: 2px solid white;
 }
 footer h4 {
+	display: inline-block;
+	float: right;
 	margin-right: 20px;
 	color: white;
 	line-height: 40px;
@@ -261,4 +279,7 @@ footer a {
 	margin-left: 70px;
 	color: white;
 	line-height: 40px;
+}
+.footer-links {
+	display: block;
 }

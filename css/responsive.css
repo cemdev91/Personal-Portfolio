@@ -1,4 +1,29 @@
 
+@media (max-width: 1323px) {
+	.skills, .experience {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.skills {
+		margin-top: -10px;
+		border-bottom: 2px solid white;
+		height: 570px;
+	}
+	.experience {
+		background-color: #34a6ed;
+		height: 500px;
+		border-bottom: 2px solid white;
+	}
+	.experience p {
+		padding: 30px;
+	}
+}
+@media (max-width: 1323px) {
+	.project-block {
+	}
+
+}
 @media (max-width: 1083px) {
 	.small-bio, .welcome-info {
 		display: block;
@@ -16,7 +41,14 @@
 		width: 100%;
 	}
 }
-@media (max-width: 913px) {
+@media (max-width: 1028px) {
+	.experience {
+		height: 560px;
+	}
+	.project-block {
+		height: 590px;
+	}
+@media (max-width: 911px) {
 	.main-nav {
 		display: block;
 		float: none;
@@ -24,5 +56,20 @@
 	}
 	.welcome-block {
 		margin-top: 45px;
+	}
+	.project-block {
+		height: 620px;
+	}
+}
+@media (max-width: 901px) {
+	footer h4 {
+		display: block;
+		text-align: center;
+		float: none;
+	}
+}
+@media (max-width: 829px) {
+	.project-block {
+		height: 700px;
 	}
 }
